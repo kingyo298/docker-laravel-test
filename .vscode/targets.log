@@ -1,0 +1,318 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri May 27 11:11:18 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-3.0.0
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+rvm_path = /Users/okudakeiakira/.rvm
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/okudakeiakira/Dev/Laravel/docker-laravel-handson
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"f5b8523d60216379ef9ba6dc243eb093.ja","_translationsConfigFile":"/Users/okudakeiakira/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/tcf.json","_cacheRoot":"/Users/okudakeiakira/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja","_resolvedLanguagePackCoreLocation":"/Users/okudakeiakira/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/Users/okudakeiakira/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+VSCODE_PID = 1961
+# makefile
+MAKEFILE_LIST := 
+# environment
+rvm_ruby_mode = 
+# environment
+rvm_ruby_make = 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/_x/ccnxykw56wsblfvttw0jyz6c0000gn/T/vscode-ipc-a5bb5e41-d8a1-42a8-94cc-433cd2c9a363.sock
+# environment
+VSCODE_CWD = /Users/okudakeiakira/Dev/Laravel/docker-laravel-handson
+# environment
+rvm_pretty_print_flag = 
+# environment
+PATH = /Users/okudakeiakira/.rvm/gems/ruby-3.0.0/bin:/Users/okudakeiakira/.rvm/gems/ruby-3.0.0@global/bin:/Users/okudakeiakira/.rvm/rubies/ruby-3.0.0/bin:/Users/okudakeiakira/opt/anaconda3/bin:/Users/okudakeiakira/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/okudakeiakira/.nodebrew/current/bin:/Users/okudakeiakira/.rvm/bin
+# environment
+rvm_niceness = 
+# environment
+rvm_only_path_flag = 
+# environment
+LaunchInstanceID = 809AD723-FA2A-407E-BE94-6A39CD56A064
+# environment
+rvm_gemstone_package_file = 
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+rvm_alias_expanded = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ITO1rPHqc8/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/okudakeiakira/opt/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+rvm_bin_path = /Users/okudakeiakira/.rvm/bin
+# environment
+PWD = /Users/okudakeiakira/Dev/Laravel/docker-laravel-handson
+# environment
+GEM_HOME = /Users/okudakeiakira/.rvm/gems/ruby-3.0.0
+# environment
+rvm_docs_type = 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/okudakeiakira
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/okudakeiakira/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = okudakeiakira
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+rvm_proxy = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+rvm_ruby_bits = 
+# environment
+GEM_PATH = /Users/okudakeiakira/.rvm/gems/ruby-3.0.0:/Users/okudakeiakira/.rvm/gems/ruby-3.0.0@global
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# environment
+rvm_ruby_make_install = 
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+IRBRC = /Users/okudakeiakira/.rvm/rubies/ruby-3.0.0/.irbrc
+# environment
+SHLVL = 3
+# environment
+rvm_quiet_flag = 
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = okudakeiakira
+# makefile
+.DEFAULT_GOAL := 
+# environment
+TERM_SESSION_ID = DA1E7001-BF1F-4588-BCB3-454AA98E514B
+# environment
+rvm_version = 1.29.12 (latest)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/_x/ccnxykw56wsblfvttw0jyz6c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/okudakeiakira/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 440
+# environment
+rvm_script_name = 
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12928939502.12928939508.A3F18E1D-BC7E-4A97-AA0A-B3C023661062
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+rvm_sdk = 
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x1:0xE
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+rvm_silent_flag = 
+# environment
+rvm_gemstone_url = 
+# environment
+LC_ALL = C
+# environment
+rvm_bin_flag = 
+# environment
+CONDA_PYTHON_EXE = /Users/okudakeiakira/opt/anaconda3/bin/python
+# environment
+SECURITYSESSIONID = 186ac
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /Users/okudakeiakira
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+rvm_ruby_file = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /Users/okudakeiakira/opt/anaconda3
+# environment
+TERM = xterm-256color
+# environment
+rvm_use_flag = 
+# environment
+rvm_hook = 
+# environment
+MY_RUBY_HOME = /Users/okudakeiakira/.rvm/rubies/ruby-3.0.0
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# environment
+rvm_nightly_flag = 
+# variable set hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=6/129=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 12932345286): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Fri May 27 11:11:18 2022
+
+ 
