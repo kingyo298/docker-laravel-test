@@ -13,7 +13,6 @@ RUN apt-get update && \
   docker-php-ext-install intl pdo_mysql zip bcmath
 
 COPY ./infra/php/php.ini /usr/local/etc/php/php.ini
-RUN composer install --optimize-autoloader --no-dev
 CMD php artisan serve --host=0.0.0.0 --port $PORT
 WORKDIR /data
 EXPOSE $PORT
